@@ -1,0 +1,99 @@
+
+.panel{
+    width: 9rem;
+    height: 15rem;
+    
+}
+.panel-2{
+    width: 6rem;
+    height: 9rem;  
+
+}
+.panel-3{
+    width: 9rem;
+    height: 6rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .brd-but{
+      display: flex;
+      border: 2px solid grey;
+      background-color: #ff7dbe;
+      border-radius: 10px;
+      justify-content: center;
+      margin: 0 auto;
+      top: 190px;
+      width: 60%;
+      cursor: pointer;
+    height: 50%;
+      
+    }
+.gradient-btn{
+    background-image: -webkit-linear-gradient(top, #ff7dbe, #ff415f);
+  background-image: -moz-linear-gradient(top, #ff7dbe, #ff415f);
+  background-image: -ms-linear-gradient(top, #ff7dbe, #ff415f);
+  background-image: -o-linear-gradient(top, #ff7dbe, #ff415f);
+  background-image: linear-gradient(to bottom, #ff7dbe, #ff415f);
+
+  /* hacerle una sombra a las letras */
+  text-shadow: 3px 2px 1px #9daef5;
+  /* sombreado al botón,  se pueden modificar valores y cambia*/
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+
+  /*cambiar, solo muestra */
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 12px;
+  padding: 19px;
+  text-decoration: none;
+}
+
+/* efecto, voltea los gradientes al pasar el cursor */ 
+.gradient-btn:hover {
+    background: #ff415f;
+    background-image: -webkit-linear-gradient(top,#ff415f, #ff7dbe);
+    background-image: -moz-linear-gradient(top, #ff415f, #ff7dbe);
+    background-image: -ms-linear-gradient(top, #ff415f, #ff7dbe);
+    background-image: -o-linear-gradient(top, #ff415f, #ff7dbe);
+    background-image: linear-gradient(to bottom, #ff415f, #ff7dbe);
+    text-decoration: none;
+  }
+/* SEGUNDA SECCIÓN DONDE APARECERÁN TODAS LAS TARJETAS DE PROVEEDORES*/
+.tarjeta{
+    border: 2px solid #9daef5;
+}
+.brd-right{
+    border-right: 1px solid #6a41ff;
+}
+.brd-down{
+    border-bottom: 1px solid #ff415f;
+}
+.brd-left{
+    border-left: 1px solid #61ff41;
+}
+  /* Create two equal columns that sits next to each other */
+  /* .column {
+      
+      
+    flex: 50%;
+    padding: 0 1px;
+    vertical-align: 10px;
+  }
+  
+  .column img {
+      margin: 0 10px 0 20px;
+    margin-top: 8px;
+    vertical-align: 5px;
+    /* vertical-align: middle; */
+ /* }*/
+ .size{
+   width: 8rem;
+   height: 8rem;
+   border-radius: 50%;
+ }
