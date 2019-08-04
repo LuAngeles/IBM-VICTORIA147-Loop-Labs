@@ -14,3 +14,4 @@ https://miro.com/welcomeonboard/CUBk6tMTg3ZfCR1uZ6eFYLLcUpRQNwlE51wL12ggdwdy56Vt
 https://www.canva.com/design/DADhjFzI8DE/TqTE6QkVwN6EQxN3l9I7vg/edit?category=tACFasDnyEQ
 
 
+![Texto alternativo](../img/perfil-tarjeta.png)
